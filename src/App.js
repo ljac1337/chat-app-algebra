@@ -57,7 +57,7 @@ function App() {
     <>
       <div className="App">
         <header className="App-header">
-          <h1>Chat App {`${member.username}`}</h1>
+          <h1>Chat App</h1>
         </header>
         <Messages messages={messages} currentMember={member} />
         <Input onSendMessage={onSendMessage}></Input>
